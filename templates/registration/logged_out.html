@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}
+Log Out
+{% endblock title %}
+
+{% block content %}
+
+<div class="container">
+    <h2 class="heading font-weight-light text-center">Log Out</h2>
+    <hr>
+</div>
+<div class="container w-25 card p-4 mt-4">
+    <p class="font-weight-light">
+     <a href="{% url 'login' %}" class="text-info">Click Here</a> if you want to login again
+    </p>
+</div>
+
+{% endblock content %}
